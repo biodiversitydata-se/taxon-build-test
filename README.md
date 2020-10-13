@@ -29,4 +29,4 @@ sh merge-taxonomy.sh
 2. As the taxonomy builder seemed to create duplicates whenever GTDB and GBIF contained taxa with identical names but different authors (GTDB does not have any), I temporarily set both author (scientificNameAuthorship) columns to 'x', and then copy back data from GBIF, after the merge. Probably not ideal.
 3. I have not used any configuration file for the builder.
 4. The final script packages the resulting taxonomy/checklist into a DwCA (zip), called 'dyntaxa.dwca.zip', but the file has nothing to do with dyntaxa.
-5. The builder outputs a lot of errors and warnings, that we need to look into.
+5. The builder outputs a lot of errors and warnings, that we need to look into. See [log file](https://github.com/biodiversitydata-se/taxon-build-test/blob/master/lucene/runs/201013-122115-gtdb-gbif-bb/run.log).
