@@ -50,4 +50,4 @@ NR==FNR{var[$1]=$(f1["scientificNameAuthorship"]); next} \
 OFS="\t" taxon.txt taxonvariant.txt > var.tmp && mv var.tmp taxonvariant.txt
 
 # Zip input (without hidden Mac files)
-zip -r ../dyntaxa.dwca.zip . -x ".*" -x "__MACOSX"
+zip -r ../gbif_gtdb.dwca.zip . -x ".*" -x "__MACOSX"
