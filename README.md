@@ -20,7 +20,7 @@ sh prep-gtdb-for-r.sh
 ```
 prep-gtdb-for-merge.R
 ```
-5. Go to lucene folder and run taxonomy builder. Will save input, script and output to folder under *taxon-build-test/lucene/runs/*.
+5. Go to lucene folder and run taxonomy builder. Will save input, script, output and log to folder under *taxon-build-test/lucene/runs/*.
 ```bash
 sh merge-taxonomy.sh
 ```
@@ -29,3 +29,4 @@ sh merge-taxonomy.sh
 2. As the taxonomy builder seemed to create duplicates whenever GTDB and GBIF contained taxa with identical names but different authors (GTDB does not have any), I temporarily set both author (scientificNameAuthorship) columns to 'x', and then copy back data from GBIF, after the merge. Probably not ideal.
 3. I have not used any configuration file for the builder.
 4. The final script packages the resulting taxonomy/checklist into a DwCA (zip), called 'dyntaxa.dwca.zip', but the file has nothing to do with dyntaxa.
+5. The builder outputs a lot of errors and warnings, that we need to look into.
