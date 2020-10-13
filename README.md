@@ -28,4 +28,4 @@ sh merge-taxonomy.sh
 1. Could not get taxonomy builder to deal with scientificNames that start with '?', so have excluded those from GBIF-bb.
 2. As the taxonomy builder seemed to create duplicates whenever GTDB and GBIF contained taxa with identical names but different authors (GTDB does not have any), I temporarily set both author (scientificNameAuthorship) columns to 'x', and then copy back data from GBIF, after the merge. Probably not ideal.
 3. I have not used any configuration file for the builder.
-
+4. The final script packages the resulting taxonomy/checklist into a DwCA (zip), called 'dyntaxa.dwca.zip', but the file has nothing to do with dyntaxa.
