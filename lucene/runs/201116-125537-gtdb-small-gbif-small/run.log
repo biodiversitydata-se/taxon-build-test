@@ -1,0 +1,110 @@
+WARN : [TermFactory] - Terms dcterms:references and gbif:Reference are both known as "references". Keeping only dcterms:references
+WARN : [TermFactory] - Terms dcterms:contributor and http://purl.org/dc/elements/1.1/contributor are both known as "contributor". Keeping only dcterms:contributor
+WARN : [TermFactory] - Terms dcterms:coverage and http://purl.org/dc/elements/1.1/coverage are both known as "coverage". Keeping only dcterms:coverage
+WARN : [TermFactory] - Terms dcterms:creator and http://purl.org/dc/elements/1.1/creator are both known as "creator". Keeping only dcterms:creator
+WARN : [TermFactory] - Terms dcterms:date and http://purl.org/dc/elements/1.1/date are both known as "date". Keeping only dcterms:date
+WARN : [TermFactory] - Terms dcterms:description and http://purl.org/dc/elements/1.1/description are both known as "description". Keeping only dcterms:description
+WARN : [TermFactory] - Terms dcterms:format and http://purl.org/dc/elements/1.1/format are both known as "format". Keeping only dcterms:format
+WARN : [TermFactory] - Terms dcterms:identifier and http://purl.org/dc/elements/1.1/identifier are both known as "identifier". Keeping only dcterms:identifier
+WARN : [TermFactory] - Terms dcterms:language and http://purl.org/dc/elements/1.1/language are both known as "language". Keeping only dcterms:language
+WARN : [TermFactory] - Terms dcterms:publisher and http://purl.org/dc/elements/1.1/publisher are both known as "publisher". Keeping only dcterms:publisher
+WARN : [TermFactory] - Terms dcterms:relation and http://purl.org/dc/elements/1.1/relation are both known as "relation". Keeping only dcterms:relation
+WARN : [TermFactory] - Terms dcterms:rights and http://purl.org/dc/elements/1.1/rights are both known as "rights". Keeping only dcterms:rights
+WARN : [TermFactory] - Terms dcterms:source and http://purl.org/dc/elements/1.1/source are both known as "source". Keeping only dcterms:source
+WARN : [TermFactory] - Terms dcterms:subject and http://purl.org/dc/elements/1.1/subject are both known as "subject". Keeping only dcterms:subject
+WARN : [TermFactory] - Terms dcterms:title and http://purl.org/dc/elements/1.1/title are both known as "title". Keeping only dcterms:title
+WARN : [TermFactory] - Terms dcterms:type and http://purl.org/dc/elements/1.1/type are both known as "type". Keeping only dcterms:type
+WARN : [TermFactory] - Terms dwc:scientificNameID and ala:nameID are both known as "nameid". Keeping only dwc:scientificNameID
+INFO : [AuthorComparator] - Created author comparator with 4949 abbreviation entries
+WARN : [NomStatusParser] - Ignoring mapping original combination→VALIDLY_PUBLISHED as original combination is already mapped to ORIGINAL_COMBINATION
+INFO : [Taxonomy] - Loading /Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/sources/gtdb-small
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:cc5e4fc46959a70344a2d8744e1130a3  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:448f0866e48ff45597b0413bbf6ff99a  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:6801be24c6b0d2f6292e208cff2107eb  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:645f1bd26c5f721680cba2d1ef870968  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:6f6b57f451247e72a0efb09cb7f19662  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:93f30bca56a26bd85707cc771ca6dadc  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:af1d3ae155e02f6b1c477c6c180c9dce  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:6a637e69b3c9357813d0f0ae50b79af2  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:750ff0523c6fd3681e0e6e881d0aa45c  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:ddac9128cfc2d9b1ce3d6f0436cfd036  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:1b91f1097cdcc2209b7bf58c687df257  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:b17191f882f8d78f73e574c6432c5b80  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:b3d99722b65c67582032bc0ba6bd4197  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:ef9cde04e9cf497c66e3c7d59bb23da7  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:97e5d1c59233e0c0198af7a55e9ec1cd  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:954d967698aeef4631018dd65e3aff74  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:8626978989306ab5cc719a7a09acc9e7  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:eab02f5b2eabe584134e2604571b6be6  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:4e52b04254ef3b16c6b0577657129ce3  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon GTDB:951001dbf4a9d2357754322bf68d4225  BACTERIAL Invalid nomenclatural code {3}, using default
+INFO : [Taxonomy] - Loading /Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/sources/gbif-small
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 1000165  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 160  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 2  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 24  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 3802  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 4983777  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 4983778  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 4983779  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 4983780  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 4983781  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 565  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 5900908  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 7544901  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 7698467  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 7800119  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 8797143  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 9011739  BACTERIAL Invalid nomenclatural code {3}, using default
+WARN : [Taxonomy] - Cant find nomenclatural code BACTERIAL
+WARN : [Taxonomy] - Taxon 9191210  BACTERIAL Invalid nomenclatural code {3}, using default
+INFO : [Taxonomy] - Resolving links
+INFO : [Taxonomy] - Finished resolving links
+INFO : [Taxonomy] - Resolving loops
+INFO : [Taxonomy] - Finished resolving loops
+INFO : [Taxonomy] - Starting validation
+ERROR: [Taxonomy] - Instance TCI[GTDB_ar122_taxonomy_r95:GTDB:cc5e4fc46959a70344a2d8744e1130a3, Archaea, null, KINGDOM, ACCEPTED] has no resolvable parent
+ERROR: [Taxonomy] - Instance TCI[d7dddbf4-2cf0-4f39-9b2a-bb099caae36c:2, Archaea, null, KINGDOM, ACCEPTED] has no resolvable parent
+INFO : [Taxonomy] - Finished validation
+ERROR: [TaxonomyBuilder] - Unable to combine taxa
+au.org.ala.names.index.IndexBuilderException: Invalid source data
+	at au.org.ala.names.index.Taxonomy.resolve(Taxonomy.java:417)
+	at au.org.ala.names.index.TaxonomyBuilder.main(TaxonomyBuilder.java:81)
+Invalid source data
