@@ -15,7 +15,7 @@ in1="gtdb-small"
 in2="gbif-small"
 
 # Base dir
-base=~/data/lucene
+base=.
 
 tmp=$base/tmp
 conf=$base/configs/sbdi-config.json
