@@ -1,0 +1,50 @@
+  {
+  "id": "SBDI-Combined",
+  "name": "SBDI Combined Taxonomy",
+  "description": "Taxonomy built from the GBIF backbone taxonomy, and the Genome Taxonomy Database (GTDB)",
+  "contact": {
+    "organization": "Swedish Biodiversity Data Infrastructure (SBDI)",
+    "email": [ "support@sbdi.se" ]
+  },
+  "nameAnalyserClass" : "au.org.ala.names.index.ALANameAnalyser",
+  "resolverClass" : "au.org.ala.names.index.ALATaxonResolver",
+  "acceptedCutoff": 500,
+  "providers" : [
+    {
+      "id" : "default",
+      "name": "default",
+      "description": "Top-level provider for default adjustments",
+      "external": false,
+      "defaultScore" : 0,
+      "unknownTaxonID" : "ALA_The_Unknown_Taxon",
+      "defaultNomenclaturalCode": "BACTERIAL"
+    },
+    {
+      "id" : "GTDB_ar122_taxonomy_r95",
+      "name": "Genome Taxonomy database",
+      "parent": "default"
+    },
+    {
+      "id" : "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "name": "GBIF Backbone Taxonomy",
+      "parent": "default"
+    },
+    {
+      "id" : "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "name": "Catalogue of Life",
+      "parent": "default"
+    },
+    {
+      "id" : "6cfd67d6-4f9b-400b-8549-1933ac27936f",
+      "name": "GBIF Type Specimen Names",
+      "parent": "default"
+    },
+    {
+      "id" : "52a423d2-0486-4e77-bcee-6350d708d6ff",
+      "name": "Prokaryotic Nomenclature Up-to-Date (PNU)",
+      "parent": "default"
+    }
+  ],
+  "defaultProvider" : "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+  "inferenceProvider" : "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c"
+}
