@@ -1,0 +1,82 @@
+WARN : [TermFactory] - Terms dcterms:references and gbif:Reference are both known as "references". Keeping only dcterms:references
+WARN : [TermFactory] - Terms dcterms:contributor and http://purl.org/dc/elements/1.1/contributor are both known as "contributor". Keeping only dcterms:contributor
+WARN : [TermFactory] - Terms dcterms:coverage and http://purl.org/dc/elements/1.1/coverage are both known as "coverage". Keeping only dcterms:coverage
+WARN : [TermFactory] - Terms dcterms:creator and http://purl.org/dc/elements/1.1/creator are both known as "creator". Keeping only dcterms:creator
+WARN : [TermFactory] - Terms dcterms:date and http://purl.org/dc/elements/1.1/date are both known as "date". Keeping only dcterms:date
+WARN : [TermFactory] - Terms dcterms:description and http://purl.org/dc/elements/1.1/description are both known as "description". Keeping only dcterms:description
+WARN : [TermFactory] - Terms dcterms:format and http://purl.org/dc/elements/1.1/format are both known as "format". Keeping only dcterms:format
+WARN : [TermFactory] - Terms dcterms:identifier and http://purl.org/dc/elements/1.1/identifier are both known as "identifier". Keeping only dcterms:identifier
+WARN : [TermFactory] - Terms dcterms:language and http://purl.org/dc/elements/1.1/language are both known as "language". Keeping only dcterms:language
+WARN : [TermFactory] - Terms dcterms:publisher and http://purl.org/dc/elements/1.1/publisher are both known as "publisher". Keeping only dcterms:publisher
+WARN : [TermFactory] - Terms dcterms:relation and http://purl.org/dc/elements/1.1/relation are both known as "relation". Keeping only dcterms:relation
+WARN : [TermFactory] - Terms dcterms:rights and http://purl.org/dc/elements/1.1/rights are both known as "rights". Keeping only dcterms:rights
+WARN : [TermFactory] - Terms dcterms:source and http://purl.org/dc/elements/1.1/source are both known as "source". Keeping only dcterms:source
+WARN : [TermFactory] - Terms dcterms:subject and http://purl.org/dc/elements/1.1/subject are both known as "subject". Keeping only dcterms:subject
+WARN : [TermFactory] - Terms dcterms:title and http://purl.org/dc/elements/1.1/title are both known as "title". Keeping only dcterms:title
+WARN : [TermFactory] - Terms dcterms:type and http://purl.org/dc/elements/1.1/type are both known as "type". Keeping only dcterms:type
+INFO : [AuthorComparator] - Created author comparator with 4949 abbreviation entries
+WARN : [TermFactory] - Terms dwc:scientificNameID and ala:nameID are both known as "nameid". Keeping only dwc:scientificNameID
+INFO : [AuthorComparator] - Created author comparator with 4949 abbreviation entries
+WARN : [NomStatusParser] - Ignoring mapping original combination→VALIDLY_PUBLISHED as original combination is already mapped to ORIGINAL_COMBINATION
+INFO : [Taxonomy] - Loading /Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/sources/gtdb-small
+INFO : [Taxonomy] - Loading /Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/sources/gbif-small
+INFO : [Taxonomy] - Resolving links
+INFO : [Taxonomy] - Finished resolving links
+INFO : [Taxonomy] - Resolving loops
+INFO : [Taxonomy] - Finished resolving loops
+INFO : [Taxonomy] - Starting validation
+INFO : [Taxonomy] - Finished validation
+INFO : [Taxonomy] - Validating name collisions
+INFO : [Taxonomy] - Finished validating name collisions
+INFO : [Taxonomy] - Resolving taxa
+INFO : [Taxonomy] - Found 0 un-resolved concepts
+INFO : [Taxonomy] - Finished resolving taxa
+INFO : [Taxonomy] - Resolving unranked taxa
+INFO : [Taxonomy] - Finished resolving unranked taxa
+INFO : [Taxonomy] - Resolving principals for scientific names
+INFO : [Taxonomy] - Resolving principals for unranked names
+INFO : [Taxonomy] - Resolving principals for bare names
+INFO : [Taxonomy] - Finished resolving principals
+INFO : [Taxonomy] - Resolving discarded/forbiiden concepts
+INFO : [Taxonomy] - Finished resolving dicarded/forbidden concepts
+INFO : [Taxonomy] - Starting validation
+INFO : [Taxonomy] - Finished validation
+INFO : [Taxonomy] - Creating working name index
+INFO : [Taxonomy] - Creating DwCA
+WARN : [LanguageParser] - Ignoring mapping  Moldavian→ROMANIAN as  Moldavian is already mapped to MOLDAVIAN
+WARN : [LanguageParser] - ISO code sh not part of our language enumeration
+INFO : [Taxonomy] - Finished creating DwCA
+INFO : [DwcaNameIndexer] - Starting to create the temporary loading index for ./tmp/name2068726612140846902.work/interim1905998015605799602combined
+INFO : [DwcaNameIndexer] - Finished creating the temporary load index with 36 concepts
+INFO : [DwcaNameIndexer] - Loading index from temporary index.
+INFO : [DwcaNameIndexer] - Loading synonyms for ./tmp/name2068726612140846902.work/interim1905998015605799602combined
+INFO : [DwcaNameIndexer] - Loading vernacular for ./tmp/name2068726612140846902.work/interim1905998015605799602combined
+INFO : [DwcaNameIndexer] - Starting to load the common names extension from ./tmp/name2068726612140846902.work/interim1905998015605799602combined
+INFO : [DwcaNameIndexer] - Finished processing 2 common names with 2 added to index
+INFO : [Taxonomy] - Created working name index
+INFO : [Taxonomy] - Resolving unplaced vernacular names
+INFO : [Taxonomy] - Finished resolving unplaced vernacular names
+INFO : [Taxonomy] - Creating DwCA
+INFO : [Taxonomy] - Finished creating DwCA
+INFO : [Taxonomy] - Writing report to ./tmp/taxonomy_report.csv
+INFO : [Taxonomy] - 12 homonyms (cross-code)
+INFO : [Taxonomy] - Loaded 47 taxon concept instances
+INFO : [Taxonomy] - Load has 7 informal names
+INFO : [Taxonomy] - Load has 7 placeholder names
+INFO : [Taxonomy] - Load has 33 scientific names
+INFO : [Taxonomy] - Allocated 34 principals to bare scientific names
+INFO : [Taxonomy] - Allocated 47 principals to scientific names
+INFO : [Taxonomy] - Allocated 45 principals to unranked scientific names
+INFO : [Taxonomy] - Reallocated 11 scientific names
+INFO : [Taxonomy] - Reallocated 11 taxon concepts
+INFO : [Taxonomy] - Reallocated 11 unranked scientific names
+INFO : [Taxonomy] - Resolved 47 instance links
+INFO : [Taxonomy] - Resolved 47 principal taxon concepts onto scientific names
+INFO : [Taxonomy] - Resolved 47 taxon concepts to principal taxon concepts
+INFO : [Taxonomy] - Resolved 47 taxon concept instance into taxon concepts
+INFO : [Taxonomy] - Resolved 34 principal unranked names onto uncoded names
+INFO : [Taxonomy] - Resolved 45 principal scientific names onto unranked names
+INFO : [Taxonomy] - Written 36 scientific names
+INFO : [Taxonomy] - Written 36 taxon concepts
+INFO : [Taxonomy] - Written 47 taxon concept instances (taxon variants)
+INFO : [Taxonomy] - Finished creating report

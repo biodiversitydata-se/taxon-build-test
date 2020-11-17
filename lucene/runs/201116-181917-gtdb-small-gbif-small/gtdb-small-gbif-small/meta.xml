@@ -1,0 +1,93 @@
+<archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="eml.xml">
+  <core encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    <files>
+      <location>taxon.txt</location>
+    </files>
+    <id index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/parentNameUsageID"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageID"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/specificEpithet"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet"/>
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/nameAccordingTo"/>
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <field index="15" term="http://purl.org/dc/terms/provenance"/>
+    <field index="16" term="http://unknown.org/tempAuthor"/>
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/originalNameUsageID"/>
+    <field index="18" term="http://rs.gbif.org/terms/1.0/canonicalName"/>
+    <field index="19" term="http://rs.gbif.org/terms/1.0/genericName"/>
+  </core>
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Identifier">
+    <files>
+      <location>identifier.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="1" term="http://purl.org/dc/terms/identifier"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <field index="3" term="http://purl.org/dc/terms/title"/>
+    <field index="4" term="http://ala.org.au/terms/1.0/status"/>
+    <field index="5" term="http://purl.org/dc/terms/source"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <field index="7" term="http://purl.org/dc/terms/provenance"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+  </extension>
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/VernacularName">
+    <files>
+      <location>vernacularname.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/vernacularName"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <field index="3" term="http://purl.org/dc/terms/language"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/countryCode"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/sex"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/lifeStage"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <field index="8" term="http://purl.org/dc/terms/source"/>
+    <field index="9" term="http://purl.org/dc/terms/provenance"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/country"/>
+  </extension>
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://purl.org/dc/terms/rightsHolder">
+    <files>
+      <location>rightsholder.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/datasetName"/>
+    <field index="2" term="http://purl.org/dc/terms/description"/>
+    <field index="3" term="http://purl.org/dc/terms/rightsHolder"/>
+    <field index="4" term="http://purl.org/dc/terms/license"/>
+  </extension>
+  <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://ala.org.au/terms/1.0/TaxonVariant">
+    <files>
+      <location>taxonvariant.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <field index="8" term="http://ala.org.au/terms/1.0/priority"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/nameAccordingTo"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <field index="13" term="http://purl.org/dc/terms/provenance"/>
+    <field index="14" term="http://ala.org.au/terms/1.0/verbatimNomenclaturalCode"/>
+    <field index="15" term="http://ala.org.au/terms/1.0/verbatimTaxonomicStatus"/>
+    <field index="16" term="http://ala.org.au/terms/1.0/verbatimNomenclaturalStatus"/>
+    <field index="17" term="http://ala.org.au/terms/1.0/verbatimTaxonRemarks"/>
+  </extension>
+</archive>

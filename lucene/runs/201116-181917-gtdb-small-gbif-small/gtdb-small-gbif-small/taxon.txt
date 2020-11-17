@@ -1,0 +1,37 @@
+taxonID	parentNameUsageID	acceptedNameUsageID	nomenclaturalCode	scientificName	scientificNameAuthorship	taxonomicStatus	taxonRank	datasetID	nomenclaturalStatus	specificEpithet	infraspecificEpithet	nameAccordingTo	namePublishedIn	taxonRemarks	provenance	tempAuthor	originalNameUsageID	canonicalName	genericName
+GTDB:cc5e4fc46959a70344a2d8744e1130a3			BC	Archaea		accepted	kingdom	GTDB_ar122_taxonomy_r95											
+24	GTDB:cc5e4fc46959a70344a2d8744e1130a3			Euryarchaeota		accepted	phylum	7ddf754f-d193-4cc9-b351-99906754a03b										Euryarchaeota	Euryarchaeota
+GTDB:954d967698aeef4631018dd65e3aff74	GTDB:cc5e4fc46959a70344a2d8744e1130a3		BC	Halobacteriota		accepted	phylum	GTDB_ar122_taxonomy_r95											
+GTDB:2f3f32f832ba1b3f6259f8ceb5954f6b	GTDB:cc5e4fc46959a70344a2d8744e1130a3		BC	Thermoproteota		accepted	phylum	GTDB_ar122_taxonomy_r95											
+GTDB:ef05b06bf7dd205ff326f4e16d9588cd	GTDB:2f3f32f832ba1b3f6259f8ceb5954f6b		BC	Bathyarchaeia		accepted	class	GTDB_ar122_taxonomy_r95											
+GTDB:eab02f5b2eabe584134e2604571b6be6	GTDB:954d967698aeef4631018dd65e3aff74		BC	Halobacteria		accepted	class	GTDB_ar122_taxonomy_r95											
+GTDB:21a495723c3015eb5747d52df591c4e4	GTDB:ef05b06bf7dd205ff326f4e16d9588cd		BC	40CM-2-53-6		accepted	order	GTDB_ar122_taxonomy_r95											
+GTDB:8626978989306ab5cc719a7a09acc9e7	GTDB:eab02f5b2eabe584134e2604571b6be6		BC	Halobacteriales		accepted	order	GTDB_ar122_taxonomy_r95											
+3802	GTDB:8626978989306ab5cc719a7a09acc9e7			Halobacteriaceae		accepted	family	7ddf754f-d193-4cc9-b351-99906754a03b										Halobacteriaceae	Halobacteriaceae
+GTDB:5f6eb2593ff132efdb54babe21306a62	GTDB:21a495723c3015eb5747d52df591c4e4		BC	40CM-2-53-6		accepted	family	GTDB_ar122_taxonomy_r95											
+GTDB:951001dbf4a9d2357754322bf68d4225	GTDB:8626978989306ab5cc719a7a09acc9e7		BC	Halococcaceae		accepted	family	GTDB_ar122_taxonomy_r95											
+GTDB:fc873175d73c6bcf8236afae2120b354	GTDB:5f6eb2593ff132efdb54babe21306a62		BC	40CM-2-53-6		accepted	genus	GTDB_ar122_taxonomy_r95											
+GTDB:5ffcff3c373049003e3f11f8310562d9	GTDB:5f6eb2593ff132efdb54babe21306a62		BC	BA-19		accepted	genus	GTDB_ar122_taxonomy_r95											
+GTDB:4e52b04254ef3b16c6b0577657129ce3	GTDB:951001dbf4a9d2357754322bf68d4225		BC	Halococcus		accepted	genus	GTDB_ar122_taxonomy_r95											
+9191210	GTDB:4e52b04254ef3b16c6b0577657129ce3			Halococcus acetoinfaciens		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		acetoinfaciens								Halococcus acetoinfaciens	Halococcus
+8797143	GTDB:4e52b04254ef3b16c6b0577657129ce3			Halococcus agglomeratus		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		agglomeratus								Halococcus agglomeratus	Halococcus
+4983781	GTDB:4e52b04254ef3b16c6b0577657129ce3			Halococcus dombrowskii	"Stan-Lotter et al., 2002"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		dombrowskii			Int. J. Syst. Evol. Microbiol. 52::1813					Halococcus dombrowskii	Halococcus
+9011739	GTDB:4e52b04254ef3b16c6b0577657129ce3			Halococcus nondenitrificans		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		nondenitrificans								Halococcus nondenitrificans	Halococcus
+5900908	GTDB:4e52b04254ef3b16c6b0577657129ce3			Halococcus qingdaonensis	"Wang et al., 2007"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		qingdaonensis			Int. J. Syst. Evol. Microbiol. 57::603					Halococcus qingdaonensis	Halococcus
+GTDB:30109b6cd267baaf9eef08ebcf10813c	GTDB:fc873175d73c6bcf8236afae2120b354		BC	40CM-2-53-6 sp005882905		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:621087c4ab9945cee6a035ef6d98ffe0	GTDB:5ffcff3c373049003e3f11f8310562d9		BC	BA-19 sp005888735		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:ef9cde04e9cf497c66e3c7d59bb23da7	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus agarilyticus		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:6801be24c6b0d2f6292e208cff2107eb	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus hamelinensis		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:b17191f882f8d78f73e574c6432c5b80	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus morrhuae		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:1b91f1097cdcc2209b7bf58c687df257	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus saccharolyticus		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:93f30bca56a26bd85707cc771ca6dadc	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus salifodinae		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:b3d99722b65c67582032bc0ba6bd4197	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sediminicola		accepted	species	GTDB_ar122_taxonomy_r95											
+GTDB:af1d3ae155e02f6b1c477c6c180c9dce	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021045		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:6f6b57f451247e72a0efb09cb7f19662	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021235		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:750ff0523c6fd3681e0e6e881d0aa45c	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021705		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:ddac9128cfc2d9b1ce3d6f0436cfd036	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021725		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:448f0866e48ff45597b0413bbf6ff99a	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003022685		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:645f1bd26c5f721680cba2d1ef870968	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003022925		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:97e5d1c59233e0c0198af7a55e9ec1cd	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003602035		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.					
+GTDB:6a637e69b3c9357813d0f0ae50b79af2	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus thailandensis		accepted	species	GTDB_ar122_taxonomy_r95											
+ALA_The_Unknown_Taxon			ICZN	The Unknown Taxon		inferredUnplaced	unranked	SBDI						A taxon introduced to catch cases where parent or accepted taxa cannot be resolved. Taxa that synonymise to this taxon or have it as a parent have a problem with the provided data, usually in the form of a loop of synonyms.					
