@@ -3,10 +3,9 @@
 
 ##################################################################################################################
 
-# Merges taxonomy DwCAs using ALA TaxonomyBuilder (java)
-# Saves in/output & this file to run folder
+# Merges taxonomy DwCAs using ALA TaxonomyBuilder (aka. Large Taxon Collider[LTC], java)
+# Saves in/output, config & this file to run folder
 # Outputs DwCA zip = input for ALA namindexer
-# ToDo: Compose config file
 
 ##################################################################################################################
 
