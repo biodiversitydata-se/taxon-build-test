@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId=""  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+        <alternateIdentifier>SBDI-Combined</alternateIdentifier>
+    <title>SBDI Combined Taxonomy</title>
+    <creator>
+<organizationName>SBDI</organizationName><electronicMailAddress>support@sbdi.se</electronicMailAddress>    </creator>
+    <associatedParty>
+<organizationName>SBDI</organizationName><electronicMailAddress>support@sbdi.se</electronicMailAddress>    <role>PROCESSOR</role>
+    </associatedParty>
+    <associatedParty>
+<organizationName>SBDI</organizationName><electronicMailAddress>support@sbdi.se</electronicMailAddress>    <role>PROCESSOR</role>
+    </associatedParty>
+      <pubDate>
+      2020-11-23
+      </pubDate>
+    <language>en</language>
+    <abstract>
+        <para>Resolved taxonomy built from ...</para>
+    </abstract>
+      <additionalInfo>
+          <para>Created by combining source taxonomies using the ala-name-matching algorithms. See https://github.com/AtlasOfLivingAustralia/ala-name-matching for more information.</para>
+      </additionalInfo>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-11-23T16:17:58Z</dateStamp>
+      <citation identifier="SBDI-Combined">SBDI Combined Taxonomy</citation>
+              <bibliography>
+      <citation identifier="/Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/./sources/gtdb-small">/Users/maria.prager/Dropbox/BAS/Projects/2009-Taxonomy/taxon-build-tests-on-GitHub/lucene/sources/gtdb-small</citation>
+      <citation>GBIF Secretariat (2017). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2019-09-16.</citation>
+      <citation identifier="SBDI">SBDI</citation>
+      <citation identifier="GTDB_ar122_taxonomy_r95">Genome Taxonomy database</citation>
+      <citation identifier="7ddf754f-d193-4cc9-b351-99906754a03b"></citation>
+      <citation identifier="d7dddbf4-2cf0-4f39-9b2a-bb099caae36c"></citation>
+      <citation identifier="52a423d2-0486-4e77-bcee-6350d708d6ff"></citation>
+      <citation identifier="6cfd67d6-4f9b-400b-8549-1933ac27936f"></citation>
+              </bibliography>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

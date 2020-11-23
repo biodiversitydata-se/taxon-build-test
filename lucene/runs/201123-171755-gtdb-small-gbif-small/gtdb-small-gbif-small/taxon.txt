@@ -1,0 +1,45 @@
+taxonID	parentNameUsageID	acceptedNameUsageID	nomenclaturalCode	scientificName	scientificNameAuthorship	taxonomicStatus	taxonRank	datasetID	nomenclaturalStatus	specificEpithet	infraspecificEpithet	nameAccordingTo	namePublishedIn	taxonRemarks	genericName	canonicalName	originalNameUsageID
+GTDB:cc5e4fc46959a70344a2d8744e1130a3			BC	Archaea		accepted	kingdom	GTDB_ar122_taxonomy_r95									
+24	GTDB:cc5e4fc46959a70344a2d8744e1130a3		BC	Euryarchaeota		accepted	phylum	7ddf754f-d193-4cc9-b351-99906754a03b							Euryarchaeota	Euryarchaeota	
+GTDB:954d967698aeef4631018dd65e3aff74	GTDB:cc5e4fc46959a70344a2d8744e1130a3		BC	Halobacteriota		accepted	phylum	GTDB_ar122_taxonomy_r95									
+GTDB:2f3f32f832ba1b3f6259f8ceb5954f6b	GTDB:cc5e4fc46959a70344a2d8744e1130a3		BC	Thermoproteota		accepted	phylum	GTDB_ar122_taxonomy_r95									
+GTDB:ef05b06bf7dd205ff326f4e16d9588cd	GTDB:2f3f32f832ba1b3f6259f8ceb5954f6b		BC	Bathyarchaeia		accepted	class	GTDB_ar122_taxonomy_r95									
+GTDB:eab02f5b2eabe584134e2604571b6be6	GTDB:954d967698aeef4631018dd65e3aff74		BC	Halobacteria		accepted	class	GTDB_ar122_taxonomy_r95									
+GTDB:21a495723c3015eb5747d52df591c4e4	GTDB:ef05b06bf7dd205ff326f4e16d9588cd		BC	40CM-2-53-6		accepted	order	GTDB_ar122_taxonomy_r95									
+GTDB:8626978989306ab5cc719a7a09acc9e7	GTDB:eab02f5b2eabe584134e2604571b6be6		BC	Halobacteriales		accepted	order	GTDB_ar122_taxonomy_r95									
+GTDB:5f6eb2593ff132efdb54babe21306a62	GTDB:21a495723c3015eb5747d52df591c4e4		BC	40CM-2-53-6		accepted	family	GTDB_ar122_taxonomy_r95									
+3802	GTDB:8626978989306ab5cc719a7a09acc9e7		BC	Halobacteriaceae		accepted	family	7ddf754f-d193-4cc9-b351-99906754a03b							Halobacteriaceae	Halobacteriaceae	
+GTDB:951001dbf4a9d2357754322bf68d4225	GTDB:8626978989306ab5cc719a7a09acc9e7		BC	Halococcaceae		accepted	family	GTDB_ar122_taxonomy_r95									
+GTDB:fc873175d73c6bcf8236afae2120b354	GTDB:5f6eb2593ff132efdb54babe21306a62		BC	40CM-2-53-6		accepted	genus	GTDB_ar122_taxonomy_r95									
+GTDB:5ffcff3c373049003e3f11f8310562d9	GTDB:5f6eb2593ff132efdb54babe21306a62		BC	BA-19		accepted	genus	GTDB_ar122_taxonomy_r95									
+GTDB:4e52b04254ef3b16c6b0577657129ce3	GTDB:951001dbf4a9d2357754322bf68d4225		BC	Halococcus		accepted	genus	GTDB_ar122_taxonomy_r95									
+1000165	3802		BC	Halococcus	"Schoop, 1935"	accepted	genus	7ddf754f-d193-4cc9-b351-99906754a03b					"Schoop, G. 1935. Halococcus litoralis, ein obligat halophiler Farbstofflbildner. Deut. Tierarzl. Wochenschr. 43:817-820."		Halococcus	Halococcus	
+GTDB:30109b6cd267baaf9eef08ebcf10813c	GTDB:fc873175d73c6bcf8236afae2120b354		BC	40CM-2-53-6 sp005882905		accepted	species	GTDB_ar122_taxonomy_r95									
+GTDB:621087c4ab9945cee6a035ef6d98ffe0	GTDB:5ffcff3c373049003e3f11f8310562d9		BC	BA-19 sp005888735		accepted	species	GTDB_ar122_taxonomy_r95									
+9191210	1000165		BC	Halococcus acetoinfaciens		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		acetoinfaciens					Halococcus	Halococcus acetoinfaciens	
+GTDB:ef9cde04e9cf497c66e3c7d59bb23da7	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus agarilyticus		accepted	species	GTDB_ar122_taxonomy_r95									
+7698467	1000165		BC	Halococcus agarilyticus	"Minegishi et al., 2015"	accepted	species	52a423d2-0486-4e77-bcee-6350d708d6ff		agarilyticus			Int. J. Syst. Evol. Microbiol. 65::1638		Halococcus	Halococcus agarilyticus	
+8797143	1000165		BC	Halococcus agglomeratus		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		agglomeratus					Halococcus	Halococcus agglomeratus	
+4983781	1000165		BC	Halococcus dombrowskii	"Stan-Lotter et al., 2002"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		dombrowskii			Int. J. Syst. Evol. Microbiol. 52::1813		Halococcus	Halococcus dombrowskii	
+GTDB:6801be24c6b0d2f6292e208cff2107eb	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus hamelinensis		accepted	species	GTDB_ar122_taxonomy_r95									
+4983779	1000165		BC	Halococcus hamelinensis	"Goh et al., 2006"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		hamelinensis			Int. J. Syst. Evol. Microbiol. 56::1328		Halococcus	Halococcus hamelinensis	
+GTDB:b17191f882f8d78f73e574c6432c5b80	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus morrhuae		accepted	species	GTDB_ar122_taxonomy_r95									
+4983780	1000165		BC	Halococcus morrhuae	"Kocur & Hodgkiss, 1973 (Farlow, 1880)"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		morrhuae			Int. J. Syst. Bacteriol. 30::307		Halococcus	Halococcus morrhuae	
+9011739	1000165		BC	Halococcus nondenitrificans		accepted	species	6cfd67d6-4f9b-400b-8549-1933ac27936f		nondenitrificans					Halococcus	Halococcus nondenitrificans	
+5900908	1000165		BC	Halococcus qingdaonensis	"Wang et al., 2007"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		qingdaonensis			Int. J. Syst. Evol. Microbiol. 57::603		Halococcus	Halococcus qingdaonensis	
+GTDB:1b91f1097cdcc2209b7bf58c687df257	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus saccharolyticus		accepted	species	GTDB_ar122_taxonomy_r95									
+4983778	1000165		BC	Halococcus saccharolyticus	"Montero et al., 1990"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		saccharolyticus			Int. J. Syst. Bacteriol. 40::105		Halococcus	Halococcus saccharolyticus	
+GTDB:93f30bca56a26bd85707cc771ca6dadc	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus salifodinae		accepted	species	GTDB_ar122_taxonomy_r95									
+4983777	1000165		BC	Halococcus salifodinae	"Denner et al., 1994"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		salifodinae			Int. J. Syst. Bacteriol. 44::779		Halococcus	Halococcus salifodinae	
+GTDB:b3d99722b65c67582032bc0ba6bd4197	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sediminicola		accepted	species	GTDB_ar122_taxonomy_r95									
+7800119	1000165		BC	Halococcus sediminicola	"Yim et al., 2014"	accepted	species	52a423d2-0486-4e77-bcee-6350d708d6ff		sediminicola			Int. J. Syst. Evol. Microbiol. 64::1455		Halococcus	Halococcus sediminicola	
+GTDB:af1d3ae155e02f6b1c477c6c180c9dce	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021045		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:6f6b57f451247e72a0efb09cb7f19662	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021235		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:750ff0523c6fd3681e0e6e881d0aa45c	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021705		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:ddac9128cfc2d9b1ce3d6f0436cfd036	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003021725		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:448f0866e48ff45597b0413bbf6ff99a	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003022685		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:645f1bd26c5f721680cba2d1ef870968	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003022925		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:97e5d1c59233e0c0198af7a55e9ec1cd	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus sp003602035		accepted	species	GTDB_ar122_taxonomy_r95						Placeholder name has been treated as unique.			
+GTDB:6a637e69b3c9357813d0f0ae50b79af2	GTDB:4e52b04254ef3b16c6b0577657129ce3		BC	Halococcus thailandensis		accepted	species	GTDB_ar122_taxonomy_r95									
+7544901	1000165		BC	Halococcus thailandensis	"Namwong et al., 2007"	accepted	species	7ddf754f-d193-4cc9-b351-99906754a03b		thailandensis			Int. J. Syst. Evol. Microbiol. 57::2202		Halococcus	Halococcus thailandensis	
+ALA_The_Unknown_Taxon			ICZN	The Unknown Taxon		inferredUnplaced	unranked	SBDI						A taxon introduced to catch cases where parent or accepted taxa cannot be resolved. Taxa that synonymise to this taxon or have it as a parent have a problem with the provided data, usually in the form of a loop of synonyms.			
