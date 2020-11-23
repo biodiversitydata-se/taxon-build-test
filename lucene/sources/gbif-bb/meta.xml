@@ -22,7 +22,6 @@
     <field index="15" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
     <field index="16" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
     <field index="17" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
-
   </core>
   <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Multimedia">
     <files>

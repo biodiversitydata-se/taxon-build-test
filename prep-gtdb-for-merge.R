@@ -119,7 +119,7 @@ add.ancestors <- function(df, ranks) {
       # Else add ancestor
       anc.name <- name.rank['name']
       anc.rank <- name.rank['rank']
-      anc.row <- c(taxonid, row$datasetID, NA, NA, NA, anc.name, NA, anc.rank, 'accepted', (row[ranks]), NA)
+      anc.row <- c(taxonid, row$datasetID, NA, NA, NA, anc.name, NA, anc.rank, 'accepted', (row[ranks]), 'BC')
       # Erase rank from memory (to not affect next)
       row[[i]] <- NA
       names(anc.row) <- colnames(df)
