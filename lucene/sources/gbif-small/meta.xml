@@ -1,7 +1,7 @@
 <archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="eml.xml">
   <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
     <files>
-      <location>taxon-gbif.tsv</location>
+      <location>taxon.tsv</location>
     </files>
     <id index="0" />
     <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
@@ -21,8 +21,7 @@
     <field index="14" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/>
     <field index="15" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/>
     <field index="16" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
-    <field index="23" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
-    <field index="24" term="tempAuthor"/>
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
   </core>
   <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Multimedia">
     <files>

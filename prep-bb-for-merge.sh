@@ -6,6 +6,7 @@
 # (but keep meta.xml)
 indir=GBIF-BB-RL-190916-archea
 outdir=lucene/sources/gbif-bb
+mkdir $outdir
 
 in_taxon=$indir'/Taxon.tsv'
 out_taxon=$outdir'/taxon.tsv'
@@ -17,11 +18,11 @@ in_dist=$indir'/Distribution.tsv'
 out_dist=$outdir'/Distribution.tsv'
 
 function prep_taxon {
-    awk 'BEGIN{FS = OFS = "\t"}
-    # Add some headers
-    FNR == 1 {print $0 OFS "nomenclaturalCode" OFS "tempAuthor"} \
-    # Skip "?" scinames, replace sciname with canonical, if provided, and temp. replace authorship with "x"
-    FNR > 1 { if ($6 !~ /^\?/) { if($8)$6 = $8; $25 = $7; $7 = "x"; print }}' \
+    awk 'BEGIN {FS = OFS = "\t"}
+    # Exclude rank cols, add code required by LTC
+    FNR == 1 {$18="nomenclaturalCode"; {for (i=1; i<=18; i++) printf("%s%s", $i, i==18 ? ORS : OFS)}} \
+    # Skip "?" scinames, replace sciname with canonical
+    FNR > 1 {$18="dummyCode"; if ($6 !~ /^\?/) { if($8) $6 = $8; {for (i=1; i<=18; i++) printf("%s%s", $i, i==18 ? ORS : OFS)}}}' \
     $1 > $2
 }
 
