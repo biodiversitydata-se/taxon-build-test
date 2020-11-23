@@ -38,16 +38,14 @@ reformat.annot <- function(df) {
   df[df == ''] <- NA
   # Cols to add (check later if all are needed, and if some should have data from db)
   cols <- c('parentNameUsageID', 'acceptedNameUsageID',	'originalNameUsageID',
-            'scientificName',	'scientificNameAuthorship','canonicalName',	'genericName',
-            'taxonRank',	'nameAccordingTo', 'namePublishedIn', 'taxonomicStatus',
-            'nomenclaturalStatus', 'taxonRemarks')
+            'scientificName',	'scientificNameAuthorship', 'taxonRank',	'taxonomicStatus')
   # Add cols
   df <- add_column(df, !!'taxonID' := NA, .before = 'datasetID')
   for (col in cols) {
     # !! := for string interpolation
     df <- add_column(df, !!col := NA, .before = 'kingdom')
   }
-  df <- add_column(df, nomenclaturalCode = NA)
+  df <- add_column(df, nomenclaturalCode = 'dummyCode')
   # Add some data
   df$taxonomicStatus <- 'accepted'
   return(df)
@@ -121,8 +119,7 @@ add.ancestors <- function(df, ranks) {
       # Else add ancestor
       anc.name <- name.rank['name']
       anc.rank <- name.rank['rank']
-      anc.row <- c(taxonid, row$datasetID, NA, NA, NA, anc.name, NA, NA, NA, anc.rank, NA, NA, 'accepted',
-                   NA, NA, (row[ranks]), NA)
+      anc.row <- c(taxonid, row$datasetID, NA, NA, NA, anc.name, NA, anc.rank, 'accepted', (row[ranks]), NA)
       # Erase rank from memory (to not affect next)
       row[[i]] <- NA
       names(anc.row) <- colnames(df)
@@ -182,6 +179,12 @@ filter.on.name <- function(df, name) {
   return(all)
 }
 
+# Calculate taxonid as md5 of full taxonomy string (excl.NAs)
+sum.id <- function(prefix, idranks){
+  nona.str <- paste(idranks[!is.na(idranks)], collapse='')
+  taxonid <- paste(prefix, digest( nona.str, algo="md5"), sep='-')
+  return(taxonid)
+}
 
 ################################################################################################
 # MAIN
@@ -199,9 +202,8 @@ df <- reformat.annot(df)
 df <- add.id.name.rank(df, ranks)
 df <- add.ancestors(df, ranks)
 df <- add.parent.ids(df, ranks)
-
-# Handle author info to enable bb matching (se merge-taxonomy.sh)
-df$scientificNameAuthorship <- 'x'
+# Remove ranks (not accepted by LTC)
+df = subset(df, select = - unlist(mget(ranks), use.names = FALSE))
 
 # Save to tsvs
 write.table(df, file = "lucene/sources/gtdb/taxon.tsv", sep='\t', row.names = F, na = '', quote = FALSE)
