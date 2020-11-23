@@ -45,7 +45,7 @@ reformat.annot <- function(df) {
     # !! := for string interpolation
     df <- add_column(df, !!col := NA, .before = 'kingdom')
   }
-  df <- add_column(df, nomenclaturalCode = 'dummyCode')
+  df <- add_column(df, nomenclaturalCode = 'BC')
   # Add some data
   df$taxonomicStatus <- 'accepted'
   return(df)
