@@ -22,7 +22,7 @@ function prep_taxon {
     # Exclude rank cols, add code required by LTC
     FNR == 1 {$18="nomenclaturalCode"; {for (i=1; i<=18; i++) printf("%s%s", $i, i==18 ? ORS : OFS)}} \
     # Skip "?" scinames, replace sciname with canonical
-    FNR > 1 {$18="dummyCode"; if ($6 !~ /^\?/) { if($8) $6 = $8; {for (i=1; i<=18; i++) printf("%s%s", $i, i==18 ? ORS : OFS)}}}' \
+    FNR > 1 {$18="BC"; if ($6 !~ /^\?/) { if($8) $6 = $8; {for (i=1; i<=18; i++) printf("%s%s", $i, i==18 ? ORS : OFS)}}}' \
     $1 > $2
 }
 
@@ -43,3 +43,4 @@ for f in $(ls $indir); do
         cp "$indir/$f" $outdir
     fi
 done
+cp lucene/sources/meta/gbif-meta.xml $outdir/meta.xml
