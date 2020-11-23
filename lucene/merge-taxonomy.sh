@@ -5,8 +5,7 @@
 
 # Merges taxonomy DwCAs using ALA TaxonomyBuilder (java)
 # Saves in/output & this file to run folder
-# Restores tax. author info from GBIF backbone (temp. replaced with 'x' to match GTDB/Silva)
-# Outputs DwCA zip (called dyntaxa for now) = input for ALA namindexer
+# Outputs DwCA zip = input for ALA namindexer
 # ToDo: Compose config file
 
 ##################################################################################################################
@@ -15,39 +14,38 @@
 in1="gtdb"
 in2="gbif-bb"
 
+# Base dir
+base=.
+
+tmp=$base/tmp
+# conf=$base/configs/sbdi-config.json
+conf=$base/configs/sbdi-config.json
+
 # Input
-dir1=sources/$in1; dir2=sources/$in2
+dir1=$base/sources/$in1; dir2=$base/sources/$in2
+
 # Run
-rdir=runs/$(date +"%y%m%d-%H%M%S")-${in1}-${in2}
+rdir=$base/runs/$(date +"%y%m%d-%H%M%S")-${in1}-${in2}
+
 # Output
 out=$rdir/"$in1-$in2"
 mkdir $rdir $out
 
-# Run Taxonomy Builder
+# Run Taxonomy Builder with config
 java -cp ~/code/java/ala-name-matching-3.4-distribution/ala-name-matching-3.4.jar \
-au.org.ala.names.index.TaxonomyBuilder -w tmp -o $out $dir1 $dir2\
+au.org.ala.names.index.TaxonomyBuilder -c $conf -w $tmp -o $out $dir1 $dir2\
 > $rdir/run.log
 
-# Copy indata to run folder
-cp -r $dir1 $dir2 $rdir
-# Add this script
-cp $0 $rdir
+# Copy script, data & config to run folder
+cp -r $0 $dir1 $dir2 $conf $rdir
+mv $tmp/taxonomy_report.csv $rdir
 
-cd $out
-
-# Run if you have manipulated scientificNameAuthorship field:
-# Restore author in taxon.txt
-awk -F "\t" 'NR == 1 {for(i=1; i<=NF; i++) {f[$i]=i}}
-NR > 1 { $(f["scientificNameAuthorship"]) = $(f["tempAuthor"])}
-{print}' OFS="\t" taxon.txt > tax.tmp && mv tax.tmp taxon.txt
-# Lokup author in taxonvariant file from taxon file
-# NR row no (counted over both files), FNR row no in current file
-awk -F"\t" '\
-NR==1 {for(i=1; i<=NF; i++){f1[$i]=i}}
-NR>1 && FNR==1 {for(j=1; j<=NF; j++){f2[$j]=j}}
-NR==FNR{var[$1]=$(f1["scientificNameAuthorship"]); next} \
-{$(f2["scientificNameAuthorship"])=var[$1]} {print}' \
-OFS="\t" taxon.txt taxonvariant.txt > var.tmp && mv var.tmp taxonvariant.txt
 
 # Zip input (without hidden Mac files)
+cd $out
 zip -r ../gbif_gtdb.dwca.zip . -x ".*" -x "__MACOSX"
+
+cd -
+
+# rm -r $base/sources/$in1/*-sorted
+rm -r $base/sources/$in2/*-sorted
