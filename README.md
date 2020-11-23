@@ -25,7 +25,7 @@ prep-gtdb-for-merge.R
 sh merge-taxonomy.sh
 ```
 ## Taxonomy implementation in the BioAtlas
-The steps below describe how to implement the merged taxonomy in a test version of the BioAtlas, and assumes that scp & ssh connection options (host, user, RSA key file) are specified in a *.ssh/config file*, allowing alias usage (*cloud*). NOTE that I use the *dyntaxa* label and *dyntaxa-index* directory for convenience only.
+The steps below describe how to implement the merged taxonomy in a test version of the BioAtlas. NOTE that I use the *dyntaxa* label and *dyntaxa-index* directory for convenience only.
 
 1. Copy taxonomy-dwca (and if needed, the java tool nameindexer.zip) to server
 ```console
@@ -144,4 +144,4 @@ docker-compose restart webserver
 1. Could not get taxonomy builder to deal with scientificNames that start with '?', so have excluded those from GBIF-bb.
 2. Inspect taxonomy_report.se
 3. Fine-tune SBDI-specific config
-4. Nomencaltural code 'BC' now added to all GBIF bb rows, which will not work for full GBIF bb merge.
+4. Nomenclatural code 'BC' now added to all GBIF bb rows, which will not work for full GBIF bb merge.
